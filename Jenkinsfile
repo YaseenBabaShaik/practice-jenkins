@@ -29,7 +29,7 @@
 @Library('roboshop') _
 
 pipeline {
-    agent any{
+    agent any
         stages {
             stage('test'){
                 steps{
@@ -41,7 +41,7 @@ pipeline {
                         print "xyz = ${xyz}}"
 
                         print abc
-                    }
+                    
                 }
             }
         }
