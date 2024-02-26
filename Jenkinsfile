@@ -38,7 +38,7 @@ pipeline {
                         def xyz =10
 
                         print "abc = ${abc}"
-                        print "xyz = ${10}"
+                        print "xyz = ${xyz}}"
 
                         print abc
                     }
