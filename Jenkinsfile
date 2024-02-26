@@ -34,7 +34,13 @@ pipeline {
             stage('test'){
                 steps{
                     script{
-                        test1
+                        def abc = "Hello"
+                        def xyz =10
+
+                        print "abc = ${abc}"
+                        print "xyz = ${10}"
+
+                        print abc
                     }
                 }
             }
