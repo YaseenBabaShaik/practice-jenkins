@@ -41,6 +41,11 @@ pipeline {
                         print "xyz = ${xyz}}"
 
                         print abc
+
+                        def new1() {
+                            print "hello"
+                        }
+                        new1()
                     
                 }
                 script{
